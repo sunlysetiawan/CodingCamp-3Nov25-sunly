@@ -1,14 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sui Company</title>
+    <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/style.css"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="asset/images/logo.png" alt="Sui Company Logo" class="company-logo">
+                <span>Sui Company</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#profile" class="nav-link">About Us</a></li>
+                <li><a href="#portfolio" class="nav-link">Our Work</a></li>
+                <li><a href="#contact" class="nav-link">Message Us</a></li>
+            </ul>
+            <div class="menu">&#9776;</div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="page-section">
+            <div class="hero-banner">
+                <h1 id="welcome-message">Hi, User! Welcome to Sui Company</h1>
+                <p>Innovating for a better future</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+                <div class="cosmic-glow"></div>
+            </div>
+        </section>
+
+        <section id="profile" class="page-section">
+            <div class="profile-content">
+
+                <div class="headquarters-section">
+                    <h3>Our Headquarters</h3>
+                    <p class="hq-intro-text">With a global presence, we leverage diverse talents and perspectives from
+                        key technological hubs around the world</p>
+                    <div class="hq-locations">
+
+                        <div class="location-card">
+                            <div class="location-image">
+                                <img src="asset/images/tokyo-hq.png" alt="Tokyo Main Headquarters">
+                            </div>
+                            <h4>Tokyo, Japan</h4>
+                            <p>Main Headquarters</p>
+                        </div>
+
+                        <div class="location-card">
+                            <div class="location-image">
+                                <img src="asset/images/jakarta-hq.png" alt="Jakarta, Indonesia Operations">
+                            </div>
+                            <h4>Jakarta, Indonesia</h4>
+                            <p>Southeast Asia Operations</p>
+                        </div>
+
+                        <div class="location-card">
+                            <div class="location-image">
+                                <img src="asset/images/usa-hq.png" alt="California, USA Innovations">
+                            </div>
+                            <h4>California, USA</h4>
+                            <p>North American Innovations</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="about-us">
+                    <h3>About Sui Company</h3>
+                    <p>Founded in 2025, Sui Company is dedicated to delivering high-quality software solutions and
+                        providing exceptional digital experiences. We believe in transparency, innovation, and
+                        partnership with our clients to achieve measurable success.</p>
+                </div>
+
+                <div class="vision-mission">
+                    <div class="vision">
+                        <h4>Vision</h4>
+                        <p>To be the global leader in innovative technology solutions, shaping the future of digital
+                            connectivity.</p>
+                    </div>
+                    <div class="mission">
+                        <h4>Mission</h4>
+                        <ul>
+                            <li>Deliver exceptional value and measurable results to our clients.</li>
+                            <li>Foster a culture of continuous learning and professional growth.</li>
+                            <li>Contribute positively to the global tech community.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="page-section">
+            <h2>Our Featured Work</h2>
+            <p class="hq-intro-text">A collection of our most successful projects, demonstrating our commitment to
+                cutting-edge technology and measurable client success.</p>
+
+            <div class="portfolio-grid">
+
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="asset/images/project-comet.png" alt="Project Comet - Global Trading Platform"
+                            class="project-image">
+                    </div>
+                    <h3>Project Comet: Global Trading Platform</h3>
+                    <p>Created a high-frequency trading system that is scalable based on microservices and analyses data
+                        in the financial markets around the world in real-time and executes the orders.</p>
+
+                    <div class="tech-stack">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Typescript</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="asset/images/luna-app.png" alt="Luna App - Health Tracker" class="project-image">
+                    </div>
+                    <h3>Luna App: Health Tracker</h3>
+                    <p>Developed a cross-platform mobile application with a seamless user experience in the field of
+                        fitness tracking using a secure cloud-based synchronization and real-time user measurements.</p>
+
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Figma</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="asset/images/cosmic-analytics.png" alt="Cosmic Analytics - Data Pipeline"
+                            class="project-image">
+                    </div>
+                    <h3>Cosmic Analytics: Data Pipeline</h3>
+                    <p>Developed and implemented a client-specific data visualization pipeline on massive astronomical
+                        data with performance and scalability in mind.</p>
+
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Apache</span>
+                        <span class="tech-tag">AWS S3</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="page-section">
+            <h2>Message Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Full Name">
+                    <div class="error-message" id="name-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="email@example.com">
+                    <div class="error-message" id="email-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+6281234567890">
+                    <div class="error-message" id="phone-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required
+                        placeholder="Write your message here..."></textarea>
+                    <div class="error-message" id="message-error"></div>
+                </div>
+                <button type="submit" id="submit-button">Send Message</button>
+            </form>
+
+            <div id="submission-output" class="hidden-output">
+                <h3>Message Received:</h3>
+                <p><strong>Name:</strong> <span id="output-name"></span></p>
+                <p><strong>Email:</strong> <span id="output-email"></span></p>
+                <p><strong>Phone:</strong> <span id="output-phone"></span></p>
+                <p><strong>Message:</strong> <span id="output-message"></span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sui Company. All rights reserved.</p>
+    </footer>
+
+    <a href="#home" id="scroll-to-top" aria-label="Scroll to top">
+        &#9650;
+    </a>
+
     <script src="js/script.js"></script>
 </body>
+
 </html>
